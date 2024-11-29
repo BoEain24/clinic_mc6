@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Breadcrump = () => {
   return (
-    <section className={`bg-[url('../assets/images/background1.png')] w-full h-[377px] bg-center`} >
+    <section className={`bg-[url('../Assets/hero-&-banner-img/banner.png')] w-full h-[377px] bg-center`} >
         <div className='w-full h-full flex items-center justify-center text-zinc-50'>
             <div className='text-3xl'>
                 <h3>Blog</h3>
