@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Home from "./pages/Home/Home";
 // import AboutUs from "./pages/AboutUs/AboutUs";
 import Blog from "./pages/Blog/Blog";
+import BlogDetail2 from "./pages/Blog/BlogDetail2";
 // import Issues from "./pages/Issues/Issues";
 // import Treatments from "./pages/Treatments/Treatments";
 // import ContactUs from "./pages/ContactUs/ContactUs";
@@ -45,6 +46,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route path="/blog" element={<Blog/>} />
+      <Route path= "/blog/:id" element={<BlogDetail2/>}/>
     </Routes>
     </BrowserRouter>
   );
