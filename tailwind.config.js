@@ -22,6 +22,9 @@ module.exports = {
           "sans-serif",
         ],
       },
+      colors: {
+      heading : '#003B5C',
+      secondary: '#015775'}
     },
   },
   variants: {

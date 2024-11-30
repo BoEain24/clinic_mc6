@@ -46,7 +46,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route path="/blog" element={<Blog/>} />
-      <Route path= "/blog/:id" element={<BlogDetail2/>}/>
+      <Route path= "/blog/detail/:id" element={<BlogDetail2/>}/>
     </Routes>
     </BrowserRouter>
   );

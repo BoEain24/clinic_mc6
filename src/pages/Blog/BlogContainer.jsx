@@ -16,4 +16,4 @@ const BlogContainer = () => {
   )
 }
 
-export default BlogCotntainer
+export default BlogContainer
