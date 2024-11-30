@@ -1,0 +1,60 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  border: 1px solid #e3e3e7;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.card-img {
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 20px;
+  background-color: #f4f4f5;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card-title {
+  font-family: "Satoshi", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #003b5c;
+}
+
+.card-description {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #52525b;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.card-button-text {
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  color: #015775;
+}
+
+.card-icon {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

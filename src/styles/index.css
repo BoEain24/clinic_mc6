@@ -10,18 +10,18 @@
 }
 @font-face {
   font-family: "Lora";
-  src: url("/assets/fonts/Lora-Regular.ttf") format("truetype"),
-       url("/assets/fonts/Lora-Medium.ttf") format("truetype"),
-       url("/assets/fonts/Lora-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/Lora-Regular.ttf") format("truetype"),
+       url("../assets/fonts/Lora-Medium.ttf") format("truetype"),
+       url("../assets/fonts/Lora-SemiBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Satoshi";
-  src: url("/assets/fonts/Satoshi-Regular.otf") format("opentype"),
-       url("/assets/fonts/Satoshi-Medium.otf") format("opentype"),
-       url("/assets/fonts/Satoshi-Bold.woff") format("woff");
+  src: url("../assets/fonts/Satoshi-Regular.otf") format("opentype"),
+       url("../assets/fonts/Satoshi-Medium.otf") format("opentype"),
+       url("../assets/fonts/Satoshi-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

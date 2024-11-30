@@ -59,7 +59,7 @@ const Popular = () => {
                     Check More
                   </span>
                   <div className="w-[16px] h-[16px] shrink-0 relative overflow-hidden z-[36]">
-                    <div className="w-[11.733px] h-[9.6px] bg-[url(${image1})] bg-[length:100%_100%] bg-no-repeat relative z-[37] mt-[3.2px] mr-0 mb-0 ml-[2.134px]" />
+                    <div className="w-[11.733px] h-[9.6px] bg-[url(../assets/images/leftarrow.png)] bg-[length:100%_100%] bg-no-repeat relative z-[37] mt-[3.2px] mr-0 mb-0 ml-[2.134px]" />
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const Popular = () => {
                     Check More
                   </span>
                   <div className="w-[16px] h-[16px] shrink-0 relative overflow-hidden z-[48]">
-                    <div className="w-[11.733px] h-[9.6px] bg-[url(${image1})] bg-[length:100%_100%] bg-no-repeat relative z-[49] mt-[3.2px] mr-0 mb-0 ml-[2.134px]" />
+                    <div className="w-[11.733px] h-[9.6px] bg-[url(../assets/images/leftarrow.png)] bg-[length:100%_100%] bg-no-repeat relative z-[49] mt-[3.2px] mr-0 mb-0 ml-[2.134px]" />
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const Popular = () => {
           </div>
           <div className="flex w-[40px] h-[40px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] gap-[8px] justify-center items-center shrink-0 flex-nowrap bg-[#f4f4f5] rounded-full border-solid border border-[#e3e3e7] absolute top-[200px] left-[1168px] z-[53]">
             <div className="w-[16px] h-[16px] shrink-0 relative overflow-hidden z-[54]">
-              <div className="w-[5.067px] h-[9.6px] bg-[url(../assets/images/forward_arrow_nocolor.png)] bg-[length:100%_100%] bg-no-repeat relative z-[55] mt-[3.2px] mr-0 mb-0 ml-[6.4px]" />
+              <div className="w-[5.067px] h-[9.6px] bg-[url(../assets/images/home-page/forward_arrow_no_color.png)] bg-[length:100%_100%] bg-no-repeat relative z-[55] mt-[3.2px] mr-0 mb-0 ml-[6.4px]" />
             </div>
           </div>
         </div>

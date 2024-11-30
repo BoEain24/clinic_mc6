@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../../styles/index.css";
 import SubScribe from "../../../../components/SubScribe";
-import Discovery from "../../../../components/Discovery";
+import Discovery from "./components/Discovery";
 import Popular from "./components/Popular";
 import HeroSection from "../../../../components/HeroSection";
 export default function Home() {
@@ -219,7 +219,7 @@ export default function Home() {
           </div>
           <div className="flex w-[40px] h-[40px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] gap-[8px] justify-center items-center shrink-0 flex-nowrap bg-[#f4f4f5] rounded-full border-solid border border-[#e3e3e7] absolute top-[278px] left-[1132px] z-[150]">
             <div className="w-[16px] h-[16px] shrink-0 relative overflow-hidden z-[151]">
-              <div className="w-[5.067px] h-[9.6px] bg-[url(../assets/images/forward_arrow_nocolor.png)] bg-[length:100%_100%] bg-no-repeat relative z-[152] mt-[3.2px] mr-0 mb-0 ml-[6.4px]" />
+              <div className="w-[5.067px] h-[9.6px] bg-[url(../assets/images/home-page/forward_arrow_no_color.png)] bg-[length:100%_100%] bg-no-repeat relative z-[152] mt-[3.2px] mr-0 mb-0 ml-[6.4px]" />
             </div>
           </div>
         </div>

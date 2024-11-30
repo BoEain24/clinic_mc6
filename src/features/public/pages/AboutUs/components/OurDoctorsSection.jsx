@@ -1,6 +1,6 @@
 import React from "react";
 import AestheicTeam from "../../../../../assets/images/about-us/aesthetic Clinic team photo.jpg";
-import buttonicon from "../../../../../assets/images/background3.png";
+import buttonicon from "../../../../../assets/images/home-page/background3.png";
 import OurDoctor1 from "../../../../../assets/images/about-us/aesthetic clinic Asian doctor(female) photo example.jpg";
 import OurDoctorCard from "./OurDoctorCard";
 import ourDotors from "../data.jsx/ourDoctors";

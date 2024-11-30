@@ -1,6 +1,6 @@
-import React from 'react';
-import TreatmentCard from '../components/TreatmentCard';
-import cardData from '../util/cardData.js';
+import React from "react";
+import TreatmentCard from "./TreatmentCard.jsx";
+import cardData from "../util/cardData.js";
 
 const CardSection = () => {
   return (

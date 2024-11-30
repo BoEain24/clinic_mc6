@@ -1,5 +1,5 @@
 import React from "react";
-import buttonicon from "../../../../../assets/images/background3.png";
+import buttonicon from "../../../../../assets/images/home-page/background3.png";
 
 const OurDoctorCard = ({ doctor }) => {
   return (
