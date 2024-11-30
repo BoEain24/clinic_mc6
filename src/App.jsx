@@ -12,6 +12,7 @@ import TermsConditions from "./pages/TermsConditions/TermsConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import Booking from "./pages/Booking/Booking";
 import navLinks from "./util/navLink.js"; // Centralized navigation links
+import IssuesDetailPage from "./pages/Issues/IssuseDetailPage.jsx";
 
 // Route Component Mapping
 const routeComponents = {
@@ -19,6 +20,7 @@ const routeComponents = {
   "/aboutus": <AboutUs />,
   "/blog": <Blog />,
   "/issues": <Issues />,
+  "/issues-detail": <IssuesDetailPage/>,
   "/treatments": <Treatments />,
   "/contact": <ContactUs />,
   "/termsconditions": <TermsConditions />,
@@ -38,6 +40,7 @@ const App = () => {
         <Route path="/booking" element={<Booking />} />
         <Route path="/termsconditions" element={<TermsConditions />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/issues-detail" element={<IssuesDetailPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
