@@ -1,13 +1,31 @@
 import React from "react";
+import HeroSection from "./components/HeroSection";
+import IssuesGroupSection from "./components/IssuesGroupSection";
+import Container from "./components/Container";
+import SubScribe from "../../components/SubScribe";
 
 const Issues = () => {
+  const handleSubscription = (email) => {
+    console.log(`User subscribed with email: ${email}`);
+  };
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-10">
-      <h1 className="text-4xl font-bold text-blue-600">Health Issues</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        Learn more about common health issues and treatments.
-      </p>
-    </div>
+    <main className="min-h-screen flex flex-col">
+      <HeroSection />
+      <Container>
+      <IssuesGroupSection />
+      </Container>
+
+      <SubScribe
+        title="Subscribe to Our Newsletter"
+        title2=" Contact us today to schedule your consultation or learn more about
+              our treatments. Your transformation starts now!"
+        email="Enter your email"
+        subScribeUser={handleSubscription}
+      />
+      
+
+      
+    </main>
   );
 };
 

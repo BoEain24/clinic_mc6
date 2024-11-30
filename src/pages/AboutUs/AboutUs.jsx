@@ -1,13 +1,30 @@
 import React from "react";
+import SubScribe from "../../components/SubScribe";
+import AboutUsHeroSection from "./components/AboutUsHeroSection";
+import Container from "../AboutUs/components/Container";
+import WelcometoSection from "./components/WelcometoSection";
+import OurDoctorsSection from "./components/OurDoctorsSection";
 
 const AboutUs = () => {
+  const handleSubscription = (email) => {
+    console.log(`User subscribed with email: ${email}`);
+  };
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-10">
-      <h1 className="text-4xl font-bold text-blue-600">Health AboutUs</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        Learn more about common health AboutUs and AboutUs.
-      </p>
-    </div>
+    <main className="min-h-screen flex flex-col">
+      <AboutUsHeroSection />
+      <Container>
+       <WelcometoSection/>
+       <OurDoctorsSection/>
+      </Container>
+
+      <SubScribe
+        title="Subscribe to Our Newsletter"
+        title2=" Contact us today to schedule your consultation or learn more about
+              our treatments. Your transformation starts now!"
+        email="Enter your email"
+        subScribeUser={handleSubscription}
+      />
+    </main>
   );
 };
 

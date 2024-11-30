@@ -1,0 +1,51 @@
+import React from "react";
+import AestheicTeam from "../../../assets/images/aesthetic Clinic team photo.jpg";
+import buttonicon from "../../../assets/images/background3.png";
+import OurDoctor1 from "../../../assets/images/aesthetic clinic Asian doctor(female) photo.jpg";
+
+const OurDoctorCard = ({ doctor }) => {
+  return (
+    <div>
+      <div className="grid grid-cols-2 gap-5 pb-16">
+        <div className="col-span-1 h-[453px]">
+          <img
+            src={doctor.images.mainImg}
+            alt=""
+            className="w-full h-full rounded-lg"
+          />
+        </div>
+        <div className="col-span-1 h-full">
+          <div className="w-full h-full flex justify-center items-center">
+            <div className="flex flex-col gap-5">
+              <div className="">
+                <h1 className="text-3xl mb-4">{doctor.names.fullName}</h1>
+                {doctor.isFounder && (
+                  <p className="text-base mb-1">Founder & Medical Director</p>
+                )}
+                <p className="text-base">MBBS (King’s College London)</p>
+              </div>
+              <div className="space-y-8 text-base">
+                <p>
+                  {doctor.description}
+                </p>
+                <p>
+                  {doctor.specialties} 
+                </p>
+                <div className="">
+                  <button className="flex w-[170px] h-[45px]  justify-center items-center  bg-[#102946] rounded-[4px] gap-3">
+                    <span className="text-[16px] font-bold text-white">
+                      Discover More
+                    </span>
+                    <img className="size-2" src={buttonicon} alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default OurDoctorCard;

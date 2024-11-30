@@ -12,3 +12,4 @@ const Treatments = () => {
 };
 
 export default Treatments;
+
