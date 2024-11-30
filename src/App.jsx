@@ -2,16 +2,18 @@ import React from "react";
 import Header from "./layouts/Header"; // Your Header component import
 import Footer from "./layouts/Footer"; // Your Footer component import
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import AboutUs from "./pages/AboutUs/AboutUs";
-import Blog from "./pages/Blog/Blog";
-import Issues from "./pages/Issues/Issues";
-import Treatments from "./pages/Treatments/Treatments";
-import ContactUs from "./pages/ContactUs/ContactUs";
-import TermsConditions from "./pages/TermsConditions/TermsConditions";
-import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
-import Booking from "./pages/Booking/Booking";
+import Home from "./features/public/pages/Home/Home.jsx";
+import AboutUs from "./features/public/pages/AboutUs/AboutUs.jsx";
+import Blog from "./features/public/pages/Blog/Blog.jsx";
+import BlogDetail2 from "./features/public/pages/Blog/BlogDetail2.jsx";
+import Issues from "./features/public/pages/Issues/Issues.jsx";
+import Treatments from "./features/public/pages/Treatments/Treatments.jsx";
+import ContactUs from "./features/public/pages/ContactUs/ContactUs.jsx";
+import TermsConditions from "./features/public/pages/TermsConditions/TermsConditions.jsx";
+import PrivacyPolicy from "./features/public/pages/PrivacyPolicy/PrivacyPolicy.jsx";
+import Booking from "./features/public/pages/Booking/Booking.jsx";
 import navLinks from "./util/navLink.js"; // Centralized navigation links
+import IssuesDetailPage from "./features/public/pages/Issues/IssuseDetailPage.jsx";
 
 // Route Component Mapping
 const routeComponents = {
@@ -19,6 +21,7 @@ const routeComponents = {
   "/aboutus": <AboutUs />,
   "/blog": <Blog />,
   "/issues": <Issues />,
+  "/issues-detail": <IssuesDetailPage />,
   "/treatments": <Treatments />,
   "/contact": <ContactUs />,
   "/termsconditions": <TermsConditions />,
@@ -38,6 +41,8 @@ const App = () => {
         <Route path="/booking" element={<Booking />} />
         <Route path="/termsconditions" element={<TermsConditions />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/blog/:id" element={<BlogDetail2 />} />
+        <Route path="/issues-detail" element={<IssuesDetailPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

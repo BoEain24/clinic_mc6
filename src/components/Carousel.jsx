@@ -1,6 +1,6 @@
 import React, { useState } from "react"; // Import second image
 import slides from "../util/sliderLink.js";
-import LinkButton from "./LinkButton.jsx";
+import LinkButton from "../ui/LinkButton.jsx";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,7 +16,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full relative overflow-hidden mt-0 mr-0 mb-0 ml-0">
+    <div>
       {/* Carousel Content */}
       <div className="flex flex-col gap-[40px] justify-center items-center flex-nowrap relative z-[3] mt-[87px] px-4 sm:px-8 md:px-16 lg:px-24">
         <div className="flex flex-col gap-[16px] justify-center items-center self-stretch shrink-0 flex-nowrap relative z-[4]">

@@ -8,6 +8,27 @@
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
 }
+@font-face {
+  font-family: "Lora";
+  src: url("/assets/fonts/Lora-Regular.ttf") format("truetype"),
+       url("/assets/fonts/Lora-Medium.ttf") format("truetype"),
+       url("/assets/fonts/Lora-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/assets/fonts/Satoshi-Regular.otf") format("opentype"),
+       url("/assets/fonts/Satoshi-Medium.otf") format("opentype"),
+       url("/assets/fonts/Satoshi-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Satoshi', 'Lora', sans-serif;
+}
+
 
 .main-container {
   overflow: hidden;
@@ -17,6 +38,7 @@
 .main-container * {
   box-sizing: border-box;
 }
+
 
 input,
 select,

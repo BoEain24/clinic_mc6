@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import slides from "../util/sliderLink.js";
-import LinkButton from "./LinkButton.jsx";
+import LinkButton from "../ui/LinkButton.jsx";
 import { useNavigate } from "react-router-dom";
 const HeroSection = () => {
   const [currentIndex] = useState(0);
@@ -10,7 +10,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute w-full h-420px sm:h-[70vh] md:h-[80vh] lg:h-[90vh] xl:h-[100vh] top-0 left-0 z-[1]">
         <div
-          className="w-full h-full bg-cover bg-no-repeat"
+          className="w-full h-[440px] bg-cover bg-no-repeat"
           style={{
             backgroundImage: `url(${slides[currentIndex].image})`,
             backgroundSize: "cover",

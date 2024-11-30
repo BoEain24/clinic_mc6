@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="w-full max-w-screen-xl mx-auto p-6 flex flex-col md:flex-row gap-6">
         {/* Logo and Social Media */}
         <div className="flex-1 flex flex-col items-center md:items-start">
-          <img src={logo} alt="Logo" className="w-52 h-auto mb-4" />
+          <img src={logo} alt="Logo" className="w-52 h-auto mb-50" />
           <div className="flex gap-3">
             {[
               {
