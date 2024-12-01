@@ -1,5 +1,5 @@
 import React from "react";
-import ValidLink from "../components/ValidLink";
+import ValidLink from "../ui/ValidLink.jsx";
 import navLinks from "../util/navLink.js";
 
 const Header = () => {

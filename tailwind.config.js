@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class",
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx}", // Include all files in the src directory
+  ],
+  darkMode: "class", // Enable dark mode if needed
   theme: {
     extend: {
       fontFamily: {
+        // Define your custom fonts here
         default: [
           "-apple-system",
           "BlinkMacSystemFont",
@@ -21,11 +24,9 @@ module.exports = {
           '"Source Han Sans CN"',
           "sans-serif",
         ],
+        custom: ["Lora", "Satoshi", "sans-serif"], // Custom fonts defined in your @font-face
       },
     },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography")], // You can add more plugins if needed
 };

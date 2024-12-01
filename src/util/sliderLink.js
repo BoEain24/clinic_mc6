@@ -1,5 +1,5 @@
-import image1 from "../assets/images/background1.png"; // Import image directly
-import image2 from "../assets/images/background2.png"; // Import second image
+import image1 from "../assets/images/home-page/background1.png"; // Import image directly
+import image2 from "../assets/images/home-page/background2.png"; // Import second image
 const slides = [
   {
     title: "Glow Beyond Limits",
