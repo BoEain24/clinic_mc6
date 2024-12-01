@@ -2,9 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
-  theme: {
+  theme: {fontFamily: { 
+    sans: ['Satoshi','sans-serif']},
     extend: {
       fontFamily: {
+        heading: [ "Lora", 'serif'],
         default: [
           "-apple-system",
           "BlinkMacSystemFont",

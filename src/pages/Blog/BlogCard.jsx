@@ -11,8 +11,8 @@ const BlogCard = ({blog:{id,image,date,title,description}}) => {
             <span className=' text-base text-zinc-600'>{date}</span>
               <div className='flex flex-col gap-y-3.5'>
 
-              <h5 className='text-xl text-heading font-medium'>{title}</h5>
-                <p className='line-clamp-3 text-base text-zinc-600'>{description} </p>
+              <h5 className='text-xl text-heading font-medium font-sans'>{title}</h5>
+                <p className='line-clamp-3 text-base text-zinc-600 '>{description} </p>
               </div>
             </div>
 

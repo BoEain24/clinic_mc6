@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('../fonts/Satoshi_Complete/Fonts/WEB/css/satoshi.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,4 +26,9 @@ select,
 textarea,
 button {
   outline: 0;
+}
+@layer base {
+  html {
+    font-family: 'Satoshi', 'sans-serif';
+  }
 }
