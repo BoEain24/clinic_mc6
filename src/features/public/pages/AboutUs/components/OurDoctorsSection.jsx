@@ -3,7 +3,7 @@ import AestheicTeam from "../../../../../assets/images/about-us/aesthetic Clinic
 import buttonicon from "../../../../../assets/images/home-page/background3.png";
 import OurDoctor1 from "../../../../../assets/images/about-us/aesthetic clinic Asian doctor(female) photo example.jpg";
 import OurDoctorCard from "./OurDoctorCard";
-import ourDotors from "../data.jsx/ourDoctors";
+import ourDotors from "../../../../../store/ourDoctors";
 
 const OurDoctorsSection = () => {
   return (
