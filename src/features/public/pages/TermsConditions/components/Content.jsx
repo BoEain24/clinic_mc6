@@ -1,5 +1,6 @@
 import React from "react";
-import Container from "./Container";
+// import Container from "./Container";
+import Container from "../../../../../components/Container";
 import { Link } from "react-router-dom";
 
 const Content = () => {
@@ -15,7 +16,9 @@ const Content = () => {
             </p>
           </div>
           <div>
-            <h4 className="text-2xl font-medium mb-4">General Information</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              General Information
+            </h4>
             <ol
               className="ms-6 flex flex-col gap-2 leading-6 text-zinc-800"
               style={{ listStyleType: "disc" }}
@@ -35,7 +38,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">Medical Disclaimer</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Medical Disclaimer
+            </h4>
             <ol
               className="ms-6 flex flex-col gap-2 leading-6 text-zinc-800"
               style={{ listStyleType: "disc" }}
@@ -56,7 +61,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">Medical Disclaimer</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Medical Disclaimer
+            </h4>
             <ol
               className="ms-6 flex flex-col gap-2 leading-6 text-zinc-800"
               style={{ listStyleType: "disc" }}
@@ -76,7 +83,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">Privacy Policy</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Privacy Policy
+            </h4>
             <ol
               className="ms-6 flex flex-col gap-2 leading-6 text-zinc-800"
               style={{ listStyleType: "disc" }}
@@ -94,7 +103,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">Privacy Policy</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Privacy Policy
+            </h4>
             <ol
               className="ms-6 flex flex-col gap-2 leading-6 text-zinc-800"
               style={{ listStyleType: "disc" }}
@@ -113,7 +124,7 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className=" text-2xl font-medium mb-4">
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
               Changes to Terms & Conditions
             </h4>
             <ol
@@ -130,7 +141,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className=" text-2xl font-medium mb-4">Governing Law</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Governing Law
+            </h4>
             <ol
               className="ms-6 flex flex-col gap-2 leading-6 text-zinc-800"
               style={{ listStyleType: "disc" }}

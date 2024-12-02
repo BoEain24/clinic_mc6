@@ -1,5 +1,6 @@
 import React from "react";
-import Container from "./Container.jsx";
+// import Container from "./Container.jsx";
+import Container from "../../../../../components/Container";
 import { Link } from "react-router-dom";
 
 const Content = () => {
@@ -8,8 +9,10 @@ const Content = () => {
       <Container>
         <div className=" flex flex-col gap-11">
           <div>
-            <h4 className="text-2xl font-medium mb-4">Introduction</h4>
-            <p className=" text-zinc-800">
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Introduction
+            </h4>
+            <p className=" text-zinc-800 font-normal">
               Paradise Aesthetic Clinic is committed to protecting your privacy.
               This Privacy Policy explains how we collect, use, disclose, and
               safeguard your information when you visit our clinic, website, or
@@ -19,7 +22,7 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
               Information We Collect
             </h4>
             <ol
@@ -46,7 +49,7 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
               How We Use Your Information
             </h4>
             <p className="text-zinc-800 mb-2">
@@ -68,7 +71,7 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
               Sharing Your Information
             </h4>
             <p className="text-zinc-800 mb-2">
@@ -93,7 +96,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">Data Security</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Data Security
+            </h4>
             <p className="text-zinc-800">
               We implement appropriate security measures to protect your
               information from unauthorized access, disclosure, or misuse. While
@@ -104,7 +109,9 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">Your Rights</h4>
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
+              Your Rights
+            </h4>
             <p className="text-zinc-800">
               Depending on your jurisdiction, you may have rights regarding your
               personal information, such as the right to access, correct, or
@@ -114,7 +121,7 @@ const Content = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-medium mb-4">
+            <h4 className="text-2xl font-medium mb-4 font-custom text-[#003B5C]">
               Changes to This Privacy Policy
             </h4>
             <p className="text-zinc-800">
