@@ -14,11 +14,13 @@ import PrivacyPolicy from "./features/public/pages/PrivacyPolicy/PrivacyPolicy.j
 import Booking from "./features/public/pages/Booking/Booking.jsx";
 import navLinks from "./util/navLink.js"; // Centralized navigation links
 import IssuesDetailPage from "./features/public/pages/Issues/IssuseDetailPage.jsx";
+import DoctorDetail from "./features/public/pages/AboutUs/DoctorDetail.jsx";
 
 // Route Component Mapping
 const routeComponents = {
   "/": <Home />,
   "/aboutus": <AboutUs />,
+  "/doctor-detail/:slug": <DoctorDetail />,
   "/blog": <Blog />,
   "/issues": <Issues />,
   "/issues-detail": <IssuesDetailPage />,
@@ -43,6 +45,7 @@ const App = () => {
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/blog/:id" element={<BlogDetail2 />} />
         <Route path="/issues-detail" element={<IssuesDetailPage />} />
+        <Route path="/doctor-detail/:slug" element={<DoctorDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>
