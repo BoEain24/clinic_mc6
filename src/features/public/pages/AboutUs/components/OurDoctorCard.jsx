@@ -5,6 +5,8 @@ import ValidLink from "../../../../../ui/ValidLink";
 
 const OurDoctorCard = ({ doctor }) => {
 
+  console.log(doctor.images.mainImg);
+
   return (
     <div>
       <div className="grid grid-cols-2 gap-5 pb-16">

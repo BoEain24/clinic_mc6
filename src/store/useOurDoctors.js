@@ -29,7 +29,7 @@ const useOurDoctor = create((set) => ( {
         firstPara:
           "Dr. Sophia Lin is a highly skilled aesthetic medicine specialist and founder of Paradise Aesthetic Clinic. Dr. Lin’s passion lies in empowering her clients to feel confident and radiant.",
   
-        second:
+        secondPara:
           "Dr Lin commitment to excellence has earned her accolades, including “Top Aesthetic Doctor of the Year”, and invitations to speak at international aesthetic medicine conferences.",
       },
   
