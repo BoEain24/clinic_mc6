@@ -1,4 +1,5 @@
 import React from "react";
+import { SlArrowDown } from "react-icons/sl";
 
 const BookingForm = () => {
   return (
@@ -9,22 +10,6 @@ const BookingForm = () => {
             className="h-[50px] border w-full px-3 py-2 rounded-sm text-sm border-zinc-200 bg-zinc-100 text-zinc-500 focus-ring-zinc-400 focus:border-zinc-400 "
             type="text"
             placeholder="Name"
-            required
-          />
-        </div>
-        <div>
-          <input
-            className="h-[50px] border w-full px-3 py-2 rounded-sm text-sm border-zinc-200 bg-zinc-100 text-zinc-500 focus-ring-zinc-400 focus:border-zinc-400 "
-            type="text"
-            placeholder="Treatment"
-            required
-          />
-        </div>
-        <div>
-          <input
-            className="h-[50px] border w-full px-3 py-2 rounded-sm text-sm border-zinc-200 bg-zinc-100 text-zinc-500 focus-ring-zinc-400 focus:border-zinc-400 "
-            type="date"
-            placeholder="Select Date"
             required
           />
         </div>
@@ -40,6 +25,33 @@ const BookingForm = () => {
             type="text"
             placeholder="Phone"
             required
+          />
+        </div>
+        <div className="flex items-center gap-4">
+          <div className="basis-6/12 relative">
+            <select className="h-[50px] appearance-none border w-full px-3 py-2 rounded-sm text-sm border-zinc-200 bg-zinc-100 text-zinc-400 focus-ring-zinc-400 focus:border-zinc-400 ">
+              <option defaultValue={""} disabled selected hidden>
+                Select Doctor
+              </option>
+            </select>
+            <SlArrowDown className="size-2 absolute top-1/2 right-3 -translate-y-1/2 pointer-events-none text-zinc-400" />
+          </div>
+
+          <div className="basis-6/12 relative">
+            <select className="h-[50px] appearance-none border w-full px-3 py-2 rounded-sm text-sm border-zinc-200 bg-zinc-100 text-zinc-400 focus-ring-zinc-400 focus:border-zinc-400 ">
+              <option defaultValue={""} disabled selected hidden>
+                Select Treatment
+              </option>
+            </select>
+            <SlArrowDown className="size-2 absolute top-1/2 right-3 -translate-y-1/2 pointer-events-none text-zinc-400" />
+          </div>
+        </div>
+        <div>
+          <input
+            type="date"
+            className="h-[50px] border w-full px-3 py-2 rounded-sm text-sm border-zinc-200 bg-zinc-100 text-zinc-400 focus-ring-zinc-400 focus:border-zinc-400"
+            required
+            placeholder="Select a date"
           />
         </div>
         <div>
