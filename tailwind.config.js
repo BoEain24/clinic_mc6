@@ -2,27 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
-  theme: {fontFamily: { 
-    sans: ['Satoshi','sans-serif']},
+  theme: {
+    
     extend: {
       fontFamily: {
+        satoshi : ["Satoshi-Regular","san-serif"],
+        satoshiMedium: ['Satoshi-Medium'],
+        
         heading: [ "Lora", 'serif'],
-        default: [
-          "-apple-system",
-          "BlinkMacSystemFont",
-          '"Segoe UI"',
-          "Roboto",
-          "Ubuntu",
-          '"Helvetica Neue"',
-          "Helvetica",
-          "Arial",
-          '"PingFang SC"',
-          '"Hiragino Sans GB"',
-          '"Microsoft Yahei UI"',
-          '"Microsoft Yahei"',
-          '"Source Han Sans CN"',
-          "sans-serif",
-        ],
+        
       },
       colors: {
       heading : '#003B5C',

@@ -27,8 +27,4 @@ textarea,
 button {
   outline: 0;
 }
-@layer base {
-  html {
-    font-family: 'Satoshi', 'sans-serif';
-  }
-}
+

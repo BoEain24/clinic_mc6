@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blog from "./pages/Blog/Blog";
 import BlogDetail2 from "./pages/Blog/BlogDetail2";
 // import Issues from "./pages/Issues/Issues";
-// import Treatments from "./pages/Treatments/Treatments";
+import Treatments from "./pages/Treatments/Treatments";
 // import ContactUs from "./pages/ContactUs/ContactUs";
 // import TermsConditions from "./pages/TermsConditions/TermsConditions";
 // import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
@@ -47,6 +47,7 @@ const App = () => {
     <Routes>
       <Route path="/blog" element={<Blog/>} />
       <Route path= "/blog/detail/:id" element={<BlogDetail2/>}/>
+      <Route path="/treatments" element={<Treatments/>} />
     </Routes>
     </BrowserRouter>
   );
