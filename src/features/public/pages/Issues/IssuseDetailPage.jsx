@@ -1,8 +1,10 @@
 import React from "react";
 import IssuesDetailHeroSection from "./components/IssuesDetailHeroSection";
-import Container from "../../../../components/Container";
+
 import SubScribe from "../../../../components/SubScribe";
 import IssuesDetailCardList from "./components/IssuesDetailCardList";
+import Container from "../AboutUs/components/Container";
+
 
 const IssuesDetailPage = () => {
   const handleSubscription = (email) => {

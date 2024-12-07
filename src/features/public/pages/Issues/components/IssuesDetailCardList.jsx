@@ -49,7 +49,7 @@ const IssuesDetailCardList = () => {
   return (
     <section className="py-10">
       <h3 className="text-2xl mb-8">You should try these Treatments</h3>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid xl:grid-cols-3 lg:grid-col-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
         {treatmentCards.map((card) => (
           <IssuesDetailCardSection key={card.id} card={card} />
         ))}

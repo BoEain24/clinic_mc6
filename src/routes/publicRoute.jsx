@@ -1,5 +1,10 @@
+import { element } from "prop-types";
 import { lazy } from "react";
 import React from "react";
+
+const DoctorDetail = lazy(() =>
+  import("../features/public/pages/AboutUs/DoctorDetail")
+);
 
 const IssuesDetailPage = lazy(() =>
   import("../features/public/pages/IssuesDetailPage")
@@ -16,9 +21,9 @@ const BlogDetail = lazy(() => import("../features/public/pages/BlogDetail"));
 const BookAppointmentPage = lazy(() =>
   import("../features/public/pages/BookAppointmentPage")
 );
-const DotorDetailPage = lazy(() =>
-  import("../features/public/pages/DotorDetailPage")
-);
+// const DotorDetailPage = lazy(() =>
+//   import("../features/public/pages/DotorDetailPage")
+// );
 const IssuesPage = lazy(() => import("../features/public/pages/IssuesPage"));
 const PrivacyPolicyPage = lazy(() =>
   import("../features/public/pages/PrivacyPolicyPage")
@@ -41,10 +46,10 @@ const publicRoute = [
     path: "/about-us",
     element: <AboutUsPage />,
   },
-  {
-    path: "doctors/:slug",
-    element: <DotorDetailPage />,
-  },
+  // {
+  //   path: "doctors/:slug",
+  //   element: <DotorDetailPage />,
+  // },
   {
     path: "/issues",
     element: <IssuesPage />,
@@ -85,5 +90,9 @@ const publicRoute = [
     path: "/terms-and-conditions",
     element: <TermsAndConditionsPage />,
   },
+  {
+    path: "/doctor-detail/:doctorSlug",
+    element: <DoctorDetail />,
+  }
 ];
 export default publicRoute;

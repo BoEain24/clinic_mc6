@@ -1,8 +1,9 @@
 import React from "react";
 import HeroSection from "./components/HeroSection";
 import IssuesGroupSection from "./components/IssuesGroupSection";
-import Container from "../../../../components/Container";
+
 import SubScribe from "../../../../components/SubScribe";
+import Container from "../AboutUs/components/Container";
 
 const Issues = () => {
   const handleSubscription = (email) => {

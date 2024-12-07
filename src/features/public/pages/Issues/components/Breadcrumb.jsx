@@ -1,7 +1,7 @@
 import React from "react";
 import { HiChevronRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
-import ValidLink from "../../AboutUs/components/Breadcrumb";
+import ValidLink from "../../../../../ui/ValidLink";
 
 const Breadcrumb = ({ currentPageTitle, links }) => {
   return (
