@@ -1,14 +1,16 @@
 import React from "react";
 import Container from "./Container";
 import IssuesCard from "./IssuesCard";
+import useIssuesCard from "../../../../../store/useIssuesCard";
 
 const IssuesGroupSection = () => {
-  const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  const { issuesCards} = useIssuesCard();
+
   return (
-    <section className="py-16">
-      <div className="grid grid-cols-3 gap-5">
-        {cards.map((card) => (
-          <IssuesCard key={card} />
+    <section className="py-16 ">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 ">
+        {issuesCards.map((card) => (
+          <IssuesCard key={card.id} card={card}/>
         ))}
       </div>
     </section>

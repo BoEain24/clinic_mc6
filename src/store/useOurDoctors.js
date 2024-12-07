@@ -6,10 +6,10 @@ const useOurDoctor = create((set) => ( {
     {
       id: 1,
       images: {
-        mainImg: 'src/assets/images/about-us/aesthetic clinic Asian doctor(female) photo example.jpg',
+        mainImg: '/src/assets/images/about-us/aesthetic clinic Asian doctor(female) photo example.jpg',
         firstImg:
-          "src/assets/images/about-us/Transform Your Skin with Hydra-facial_ The Ultimate Guide to Glowing Skin 2.jpg",
-        secondImg: "src/assets/images/about-us/skin-revitalization-2.webp",
+          "/src/assets/images/about-us/Transform Your Skin with Hydra-facial_ The Ultimate Guide to Glowing Skin 2.jpg",
+        secondImg: "/src/assets/images/about-us/skin-revitalization-2.webp",
       },
   
       names: { fullName: "Dr. Sophia Lin", shortName: "Dr. Lin" },
@@ -41,9 +41,9 @@ const useOurDoctor = create((set) => ( {
     {
       id: 2,
       images: {
-        mainImg: "src/assets/images/about-us/aesthetic clinic doctor photo example.jpg",
-        firstImg: "src/assets/images/about-us/dr-emily2.jpg",
-        secondImg: "src/assets/images/about-us/dr-emily.jpg",
+        mainImg: "/src/assets/images/about-us/aesthetic clinic doctor photo example.jpg",
+        firstImg: "/src/assets/images/about-us/dr-emily2.jpg",
+        secondImg: "/src/assets/images/about-us/dr-emily.jpg",
       },
   
       names: { fullName: "Dr Emily Tan", shortName: " Dr. Emily " },
@@ -70,9 +70,9 @@ const useOurDoctor = create((set) => ( {
     {
       id: 3,
       images: {
-        mainImg: "src/assets/images/about-us/aesthetic clinic doctor photo example (1).jpg",
-        firstImg: "src/assets/images/about-us/dr-oliver.jpeg",
-        secondImg: "src/assets/images/about-us/dr-oliver2.jpg",
+        mainImg: "/src/assets/images/about-us/aesthetic clinic doctor photo example (1).jpg",
+        firstImg: "/src/assets/images/about-us/dr-oliver.jpeg",
+        secondImg: "/src/assets/images/about-us/dr-oliver2.jpg",
       },
   
       names: { fullName: "Dr Oliver Grant ", shortName: "Dr. Oliver" },

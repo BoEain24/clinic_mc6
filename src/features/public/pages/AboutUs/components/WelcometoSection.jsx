@@ -2,7 +2,7 @@ import React from "react";
 import AestheicTeam from "../../../../../assets/images/about-us/aesthetic Clinic team photo.jpg";
 const WelcometoSection = () => {
   return (
-    <section className="grid grid-cols-2 gap-5 py-16">
+    <section className="grid md:grid-cols-2 grid-cols-1  gap-5 py-16">
       <div className="col-span-1 h-full">
         <div className="w-full h-full flex justify-center items-center">
           <div className="flex flex-col gap-5">
@@ -32,7 +32,7 @@ const WelcometoSection = () => {
         </div>
       </div>
       <div className="col-span-1 h-[453px]">
-        <img src={AestheicTeam} alt="" className="w-full h-full rounded-lg" />
+        <img src={AestheicTeam} alt="" className="w-full h-full rounded-lg " />
       </div>
     </section>
   );

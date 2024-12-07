@@ -9,7 +9,7 @@ const OurDoctorCard = ({ doctor }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-5 pb-16">
+      <div className="grid md:grid-cols-2 gap-5 pb-16">
         <div className="col-span-1 h-[453px]">
           <img
             src={doctor.images.mainImg}
